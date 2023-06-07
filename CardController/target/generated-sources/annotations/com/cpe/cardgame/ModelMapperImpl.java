@@ -8,8 +8,8 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-06-07T20:24:26+0200",
-    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.2 (Oracle Corporation)"
+    date = "2023-06-07T21:32:04+0200",
+    comments = "version: 1.5.3.Final, compiler: Eclipse JDT (IDE) 3.33.0.v20230218-1114, environment: Java 17.0.6 (Eclipse Adoptium)"
 )
 public class ModelMapperImpl implements ModelMapper {
 
@@ -21,20 +21,20 @@ public class ModelMapperImpl implements ModelMapper {
 
         Card card = new Card();
 
-        card.setOriginalHp( user.getOriginalHp() );
-        card.setToSell( user.getToSell() );
-        card.setId( user.getId() );
-        card.setName( user.getName() );
-        card.setDescription( user.getDescription() );
-        card.setFamily( user.getFamily() );
         card.setAffinity( user.getAffinity() );
-        card.setImgUrl( user.getImgUrl() );
-        card.setSmallImgUrl( user.getSmallImgUrl() );
-        card.setEnergy( user.getEnergy() );
-        card.setHp( user.getHp() );
-        card.setDefence( user.getDefence() );
         card.setAttack( user.getAttack() );
+        card.setDefence( user.getDefence() );
+        card.setDescription( user.getDescription() );
+        card.setEnergy( user.getEnergy() );
+        card.setFamily( user.getFamily() );
+        card.setHp( user.getHp() );
+        card.setId( user.getId() );
+        card.setImgUrl( user.getImgUrl() );
+        card.setName( user.getName() );
+        card.setOriginalHp( user.getOriginalHp() );
         card.setPrice( user.getPrice() );
+        card.setSmallImgUrl( user.getSmallImgUrl() );
+        card.setToSell( user.getToSell() );
         card.setUserId( user.getUserId() );
 
         return card;
@@ -48,19 +48,19 @@ public class ModelMapperImpl implements ModelMapper {
 
         Card card = new Card();
 
-        card.setOriginalHp( user.getOriginalHp() );
-        card.setToSell( user.getToSell() );
-        card.setId( user.getId() );
-        card.setName( user.getName() );
-        card.setDescription( user.getDescription() );
-        card.setFamily( user.getFamily() );
         card.setAffinity( user.getAffinity() );
-        card.setImgUrl( user.getImgUrl() );
-        card.setSmallImgUrl( user.getSmallImgUrl() );
-        card.setEnergy( user.getEnergy() );
-        card.setHp( user.getHp() );
         card.setAttack( user.getAttack() );
+        card.setDescription( user.getDescription() );
+        card.setEnergy( user.getEnergy() );
+        card.setFamily( user.getFamily() );
+        card.setHp( user.getHp() );
+        card.setId( user.getId() );
+        card.setImgUrl( user.getImgUrl() );
+        card.setName( user.getName() );
+        card.setOriginalHp( user.getOriginalHp() );
         card.setPrice( user.getPrice() );
+        card.setSmallImgUrl( user.getSmallImgUrl() );
+        card.setToSell( user.getToSell() );
         card.setUserId( user.getUserId() );
 
         return card;
@@ -74,19 +74,19 @@ public class ModelMapperImpl implements ModelMapper {
 
         Card card = new Card();
 
-        card.setToSell( user.getToSell() );
-        card.setId( user.getId() );
-        card.setName( user.getName() );
-        card.setDescription( user.getDescription() );
-        card.setFamily( user.getFamily() );
         card.setAffinity( user.getAffinity() );
-        card.setImgUrl( user.getImgUrl() );
-        card.setSmallImgUrl( user.getSmallImgUrl() );
-        card.setEnergy( user.getEnergy() );
-        card.setHp( user.getHp() );
-        card.setDefence( user.getDefence() );
         card.setAttack( user.getAttack() );
+        card.setDefence( user.getDefence() );
+        card.setDescription( user.getDescription() );
+        card.setEnergy( user.getEnergy() );
+        card.setFamily( user.getFamily() );
+        card.setHp( user.getHp() );
+        card.setId( user.getId() );
+        card.setImgUrl( user.getImgUrl() );
+        card.setName( user.getName() );
         card.setPrice( user.getPrice() );
+        card.setSmallImgUrl( user.getSmallImgUrl() );
+        card.setToSell( user.getToSell() );
         card.setUserId( user.getUserId() );
 
         return card;
@@ -100,20 +100,20 @@ public class ModelMapperImpl implements ModelMapper {
 
         CardIn cardIn = new CardIn();
 
-        cardIn.setId( user.getId() );
-        cardIn.setDefence( user.getDefence() );
-        cardIn.setAttack( user.getAttack() );
-        cardIn.setName( user.getName() );
-        cardIn.setDescription( user.getDescription() );
-        cardIn.setFamily( user.getFamily() );
         cardIn.setAffinity( user.getAffinity() );
-        cardIn.setImgUrl( user.getImgUrl() );
-        cardIn.setSmallImgUrl( user.getSmallImgUrl() );
+        cardIn.setAttack( user.getAttack() );
+        cardIn.setDefence( user.getDefence() );
+        cardIn.setDescription( user.getDescription() );
         cardIn.setEnergy( user.getEnergy() );
+        cardIn.setFamily( user.getFamily() );
         cardIn.setHp( user.getHp() );
+        cardIn.setId( user.getId() );
+        cardIn.setImgUrl( user.getImgUrl() );
+        cardIn.setName( user.getName() );
         cardIn.setPrice( user.getPrice() );
-        cardIn.setUserId( user.getUserId() );
+        cardIn.setSmallImgUrl( user.getSmallImgUrl() );
         cardIn.setToSell( user.getToSell() );
+        cardIn.setUserId( user.getUserId() );
 
         return cardIn;
     }
@@ -126,19 +126,19 @@ public class ModelMapperImpl implements ModelMapper {
 
         CardOut cardOut = new CardOut();
 
-        cardOut.setId( user.getId() );
-        cardOut.setName( user.getName() );
-        cardOut.setDescription( user.getDescription() );
-        cardOut.setFamily( user.getFamily() );
         cardOut.setAffinity( user.getAffinity() );
-        cardOut.setImgUrl( user.getImgUrl() );
-        cardOut.setSmallImgUrl( user.getSmallImgUrl() );
+        cardOut.setAttack( user.getAttack() );
+        cardOut.setDescription( user.getDescription() );
         cardOut.setEnergy( user.getEnergy() );
+        cardOut.setFamily( user.getFamily() );
         cardOut.setHp( user.getHp() );
+        cardOut.setId( user.getId() );
+        cardOut.setImgUrl( user.getImgUrl() );
+        cardOut.setName( user.getName() );
+        cardOut.setPrice( user.getPrice() );
+        cardOut.setSmallImgUrl( user.getSmallImgUrl() );
         cardOut.setToSell( user.getToSell() );
         cardOut.setUserId( user.getUserId() );
-        cardOut.setPrice( user.getPrice() );
-        cardOut.setAttack( user.getAttack() );
 
         return cardOut;
     }
@@ -151,19 +151,19 @@ public class ModelMapperImpl implements ModelMapper {
 
         CardForm cardForm = new CardForm();
 
-        cardForm.setId( user.getId() );
-        cardForm.setToSell( user.getToSell() );
-        cardForm.setName( user.getName() );
-        cardForm.setDescription( user.getDescription() );
-        cardForm.setFamily( user.getFamily() );
         cardForm.setAffinity( user.getAffinity() );
-        cardForm.setImgUrl( user.getImgUrl() );
-        cardForm.setSmallImgUrl( user.getSmallImgUrl() );
-        cardForm.setEnergy( user.getEnergy() );
-        cardForm.setHp( user.getHp() );
-        cardForm.setDefence( user.getDefence() );
         cardForm.setAttack( user.getAttack() );
+        cardForm.setDefence( user.getDefence() );
+        cardForm.setDescription( user.getDescription() );
+        cardForm.setEnergy( user.getEnergy() );
+        cardForm.setFamily( user.getFamily() );
+        cardForm.setHp( user.getHp() );
+        cardForm.setId( user.getId() );
+        cardForm.setImgUrl( user.getImgUrl() );
+        cardForm.setName( user.getName() );
         cardForm.setPrice( user.getPrice() );
+        cardForm.setSmallImgUrl( user.getSmallImgUrl() );
+        cardForm.setToSell( user.getToSell() );
         cardForm.setUserId( user.getUserId() );
 
         return cardForm;
@@ -177,21 +177,21 @@ public class ModelMapperImpl implements ModelMapper {
 
         CardIn cardIn = new CardIn();
 
-        cardIn.setId( user.getId() );
-        cardIn.setDefence( user.getDefence() );
-        cardIn.setAttack( user.getAttack() );
-        cardIn.setName( user.getName() );
-        cardIn.setDescription( user.getDescription() );
-        cardIn.setFamily( user.getFamily() );
         cardIn.setAffinity( user.getAffinity() );
-        cardIn.setImgUrl( user.getImgUrl() );
-        cardIn.setSmallImgUrl( user.getSmallImgUrl() );
+        cardIn.setAttack( user.getAttack() );
+        cardIn.setDefence( user.getDefence() );
+        cardIn.setDescription( user.getDescription() );
         cardIn.setEnergy( user.getEnergy() );
+        cardIn.setFamily( user.getFamily() );
         cardIn.setHp( user.getHp() );
-        cardIn.setPrice( user.getPrice() );
+        cardIn.setId( user.getId() );
+        cardIn.setImgUrl( user.getImgUrl() );
+        cardIn.setName( user.getName() );
         cardIn.setOriginalHp( user.getOriginalHp() );
-        cardIn.setUserId( user.getUserId() );
+        cardIn.setPrice( user.getPrice() );
+        cardIn.setSmallImgUrl( user.getSmallImgUrl() );
         cardIn.setToSell( user.getToSell() );
+        cardIn.setUserId( user.getUserId() );
 
         return cardIn;
     }
@@ -204,20 +204,20 @@ public class ModelMapperImpl implements ModelMapper {
 
         CardOut cardOut = new CardOut();
 
-        cardOut.setId( user.getId() );
-        cardOut.setName( user.getName() );
-        cardOut.setDescription( user.getDescription() );
-        cardOut.setFamily( user.getFamily() );
         cardOut.setAffinity( user.getAffinity() );
-        cardOut.setImgUrl( user.getImgUrl() );
-        cardOut.setSmallImgUrl( user.getSmallImgUrl() );
+        cardOut.setAttack( user.getAttack() );
+        cardOut.setDescription( user.getDescription() );
         cardOut.setEnergy( user.getEnergy() );
+        cardOut.setFamily( user.getFamily() );
         cardOut.setHp( user.getHp() );
+        cardOut.setId( user.getId() );
+        cardOut.setImgUrl( user.getImgUrl() );
+        cardOut.setName( user.getName() );
+        cardOut.setOriginalHp( user.getOriginalHp() );
+        cardOut.setPrice( user.getPrice() );
+        cardOut.setSmallImgUrl( user.getSmallImgUrl() );
         cardOut.setToSell( user.getToSell() );
         cardOut.setUserId( user.getUserId() );
-        cardOut.setPrice( user.getPrice() );
-        cardOut.setOriginalHp( user.getOriginalHp() );
-        cardOut.setAttack( user.getAttack() );
 
         return cardOut;
     }
